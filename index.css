@@ -1,0 +1,21 @@
+#game{
+    position: relative;
+    margin: 50px auto 0px;
+    background-color: #ddd;
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
+}
+
+#game .item{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    box-sizing: border-box;
+    border: 1px solid;
+    background-color:lightblue;
+}
+
+#game .item.head{
+    background-color: #f40;
+}
